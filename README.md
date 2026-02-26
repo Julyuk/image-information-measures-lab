@@ -73,15 +73,7 @@ Low entropy indicates:
 
 #### Hartley Measure
 
-Hartley measure evaluates the number of unique grayscale values:
-
-[
-H = \log_2(N)
-]
-
-where:
-
-N – number of unique intensity values.
+Hartley measure evaluates the number of unique grayscale values.
 
 This measure reflects the potential information capacity of the image.
 
@@ -97,21 +89,9 @@ Unlike Shannon entropy, Markov entropy considers **spatial relationships between
 
 This makes it suitable for texture analysis.
 
-Transition matrix:
+Transition matrix represents transitions from intensity level i to level j.
 
-[
-C_{ij}
-]
-
-represents transitions from intensity level i to level j.
-
-Conditional entropy:
-
-[
-H(X_t|X_{t-1})
-]
-
-measures predictability of pixel transitions.
+Conditional entropy measures predictability of pixel transitions.
 
 ---
 
@@ -275,13 +255,7 @@ Combined use of all three information measures provides a comprehensive descript
 
 #### Міра Хартлі
 
-Міра Хартлі визначає кількість унікальних значень яскравості:
-
-[
-H = \log_2(N)
-]
-
-де N — кількість унікальних значень.
+Міра Хартлі визначає кількість унікальних значень яскравості.
 
 Ця міра характеризує потенційну інформаційну місткість зображення.
 
